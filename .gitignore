@@ -1,0 +1,50 @@
+####################################
+# CMake – carpetas de build
+####################################
+build/
+cmake-build-*/
+out/
+bin/
+
+####################################
+# Archivos que continene datos
+####################################
+Data/
+
+####################################
+# Archivos generados por CMake
+####################################
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+####################################
+# Archivos compilados (C / C++)
+####################################
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+####################################
+# IDEs y editores
+####################################
+.vscode/
+.idea/
+*.user
+*.suo
+*.vcxproj*
+*.vs/
+
+####################################
+# Sistema operativo
+####################################
+.DS_Store
+Thumbs.db
